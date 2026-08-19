@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "rupam_test_s3" {
   acl    = "private"
 
   tags = {
-    Project     = "rupam test s3"
+    Project     = "rupam test new s3"
     ManagedBy   = "terraform"
   }
 }
